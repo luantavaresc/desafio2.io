@@ -1,0 +1,14 @@
+.font-s {
+  font: 400 1rem/1.8 "Montserrat", sans-serif;
+}
+.font-m {
+  font: 500 1.125rem/2.225 "Montserrat", sans-serif;
+}
+
+.font-l {
+  font: 600 1.5rem/2.95 "Montserrat", sans-serif;
+}
+
+.font-xl {
+  font: 700 1.75rem/2.125 "Montserrat", sans-serif;
+}

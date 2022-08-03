@@ -1,0 +1,76 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--cor-1);
+
+}
+
+.titulo-1 {
+  background-color: var(--cor-3);
+}
+
+.titulo-2 {
+  background-color: var(--cor-0);
+}
+
+.titulo-1,
+.titulo-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  background-image: url(./utilidades/imagem/tenis-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 377px;
+  position: relative;
+  filter: brightness(50%);
+}
+
+.banner-texto {
+  position: absolute;
+  top: 270px;
+}
+
+.conteudo-texto {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.loja{
+padding-bottom: 50px;
+}
+
+.sapato {
+  background-color: var(--cor-2);
+  margin: 20px 20px;
+  padding: 76px 62px;
+}
+
+footer {
+  background-color: var(--cor-3);
+  text-align: center;
+}
+
+@media (min-width:1024px) {
+
+  .banner {
+    background-image: url(./utilidades/imagem/tenis.png);
+  }
+  .banner-texto {
+    left: 70px;
+  }
+
+.loja{
+ display: flex;
+ flex-wrap: wrap;
+justify-content: center;
+}
+
+  .sapato {
+    padding: 76px 25px;
+    margin: 10px 10px;
+  }
+}
